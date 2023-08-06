@@ -8,10 +8,10 @@ export const navLinks = [
     label: 'Credentials',
     pathname: '/credentials',
   },
-  {
-    label: 'Service',
-    pathname: '/service',
-  },
+  // {
+  //   label: 'Service',
+  //   pathname: '/service',
+  // },
   {
     label: 'Work',
     pathname: '/works',
@@ -32,6 +32,6 @@ export const socialLinks = [
   {
     label: 'Linkedin',
     url: '/Saurav-Resume.pdf',
-    icon: 'twitter',
+    icon: 'download',
   },
 ];
