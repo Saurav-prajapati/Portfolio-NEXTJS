@@ -225,14 +225,11 @@ export const Home = () => {
                                             <a href="contact" class="about-btn">
                                                 <img src=" images/icon.svg" alt="Button" />
                                             </a>
-
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
 
                     <div class="row mt-24">
@@ -242,7 +239,7 @@ export const Home = () => {
                                 <img src=" images/bg1.png" alt="BG" class="bg-img" />
                                 <div class="clients d-flex align-items-start gap-24 justify-content-center">
                                     <div class="client-item">
-                                        <h1>1.3 +</h1>
+                                        <h1>2 +</h1>
                                         <p>Years <br />Experience</p>
                                     </div>
 
@@ -252,15 +249,13 @@ export const Home = () => {
                                     </div> */}
 
                                     <div class="client-item">
-                                        <h1>20 +</h1>
+                                        <h1>30 +</h1>
                                         <p>Total <br />Projects</p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-md-6" data-aos="zoom-in">
-
                             <div class="about-contact-box info-box shadow-box">
                                 <a class="overlay-link" href="contact"></a>
                                 <img src=" images/bg1.png" alt="BG" class="bg-img" />
@@ -270,12 +265,10 @@ export const Home = () => {
                                     <img src=" images/icon.svg" alt="Button" />
                                 </a>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </section>
-
 
             <Footer />
         </div>

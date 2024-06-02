@@ -78,6 +78,7 @@
   cursor: text;
   transform-origin: top left;
   transition: color var(--durationM) ease;
+  font-family: 'Gotham';
 
   @media (--mediaUseMotion) {
     transition: transform var(--durationM) var(--bezierFastoutSlowin),
