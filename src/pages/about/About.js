@@ -28,17 +28,17 @@ export const About = () => {
               </h1>
               <div class="about-details-inner shadow-box">
                 <img src=" /images/icon2.png" alt="Star" />
-                <h1>Guru Saurav</h1>
+                <h1>Saurav Prajapati</h1>
                 <p>
-                  Hello, my name is Guru Saurav, and I reside in Karawal Nagar, Delhi. I
-                  am a dedicated web developer with over two years of professional
-                  experience. I started with a 6-month internship at Whoomama, followed by
-                  a year at Epic Web Techno as a Junior Web Developer, where I worked with
-                  Next.js and React. I then spent six months at Lemniscate Technologies as
-                  a Web Developer. Currently, I am a Shopify Developer at Eglogics Softech
-                  Pvt. Ltd., focusing on creating and customizing Shopify stores. My
-                  passion lies in web development, and I specialize in Shopify and
-                  WordPress development.
+                  Hello, my name is Saurav Prajapati, and I reside in Karawal Nagar,
+                  Delhi. I am a dedicated web developer with over more than three years of
+                  professional experience. I started with a 6-month internship at
+                  Whoomama, followed by a 2 year at Epic Web Techno as a Junior Web
+                  Developer, where I worked with Next.js and React. I then spent seven
+                  months at Lemniscate Technologies as a Web Developer. Currently, I am a
+                  Shopify Developer at Eglogics Softech Pvt. Ltd., focusing on creating
+                  and customizing Shopify stores. My passion lies in web development, and
+                  I specialize in Shopify and WordPress development.
                 </p>
               </div>
             </div>
@@ -54,10 +54,10 @@ export const About = () => {
                   <li>
                     <p class="date">Aug 2022 - Nov 2022</p>
                     <h2>Wordpress Designer & Developer</h2>
-                    <p class="type">Woohmama</p>
+                    <p class="type">Woohmama (Online Internship)</p>
                   </li>
                   <li>
-                    <p class="date">Sep 2022 - Oct 2023</p>
+                    <p class="date">Sep 2021 - Oct 2023</p>
                     <h2>Web Developer</h2>
                     <p class="type">Epic Web Techno</p>
                   </li>
@@ -68,7 +68,7 @@ export const About = () => {
                   </li>
                   <li>
                     <p class="date">April 2024 - (Present) </p>
-                    <h2>Web Developer</h2>
+                    <h2>Shopify Developer</h2>
                     <p class="type">Eglogics Softech Pvt. Ltd.</p>
                   </li>
                 </ul>
@@ -104,6 +104,11 @@ export const About = () => {
                     <p class="date">Nov 2020 - Nov 2021</p>
                     <h2>Diploma in Graphic & Web Designing</h2>
                     <p class="type">Vision Institute</p>
+                  </li>
+                  <li>
+                    <p class="date">Nov 2020 - Nov 2021</p>
+                    <h2>MCA (Master of Computer Applications)</h2>
+                    <p class="type">MDU (Maharshi Dayanand University)</p>
                   </li>
                 </ul>
               </div>
