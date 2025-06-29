@@ -431,20 +431,6 @@ export const Work = () => {
                     </div>
                   </div>
                 </div>
-
-                <div data-aos="zoom-in">
-                  <div class="project-item p-4 shadow-box">
-                    <div class="d-flex align-items-center justify-content-between">
-                      <div class="project-info">
-                        <p>Next.js</p>
-                        <h1>gurusaurav.live</h1>
-                      </div>
-                      <a href="https://www.gurusaurav.live/" class="project-btn">
-                        <img src=" /images/icon.svg" alt="Button" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
                 <div data-aos="zoom-in">
                   <div class="project-item p-4 shadow-box">
                     <div class="d-flex align-items-center justify-content-between">

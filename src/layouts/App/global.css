@@ -655,6 +655,7 @@ ol {
 .about-area .about-image-box img {
   display: block;
   border-radius: 30px;
+  filter: grayscale(1);
 }
 .about-area .about-details {
   flex: 1;
@@ -937,6 +938,7 @@ ol {
   display: block;
   margin: auto;
   border-radius: 30px;
+  filter: grayscale(1);
 }
 .credential-area .credential-sidebar p {
   color: #bcbcbc;
@@ -968,6 +970,9 @@ ol {
     rgba(255, 255, 255, 0.01)
   );
   transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .credential-area .credential-sidebar .social-links li a:hover {
   background: #ffffff;
@@ -1085,7 +1090,7 @@ ol {
 }
 .service-area .service-sidebar .service-sidebar-inner {
   height: 100%;
-  padding: 91px 24px 90px 60px;
+  padding: 24px;
 }
 .service-area .service-sidebar .service-sidebar-inner ul {
   display: flex;
@@ -2143,4 +2148,17 @@ ol {
 
 .Button_text__t2U9w {
   display: none;
+}
+
+.header_logo svg {
+  width: 150px;
+  position: relative;
+  left: 35px;
+}
+
+.header_logo .cls-1 {
+  fill: #fff;
+}
+.header_logo .cls-2 {
+  fill: #08b2ad;
 }

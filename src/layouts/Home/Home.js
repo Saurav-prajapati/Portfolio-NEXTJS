@@ -6,6 +6,7 @@ import styles from './Home.module.css';
 
 const disciplines = [
   'Developer',
+  'Front End Developer',
   'Shopify Dev',
   'Wordpress Dev',
   'Next UI/UX',
@@ -56,8 +57,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Developer"
-        description="Design portfolio of Prajapati Saurav."
+        title="{ The < / > Developer }"
+        description="Design portfolio of { The < / > Developer }."
       />
       <Intro
         id="intro"
@@ -186,11 +187,19 @@ export const Home = () => {
                   <div class="about-services-box info-box shadow-box h-full">
                     <a href="service" class="overlay-link"></a>
                     <img src=" images/bg1.png" alt="BG" class="bg-img" />
-                    <div class="icon-boxes">
-                      <i class="iconoir-camera"></i>
-                      <i class="iconoir-design-pencil"></i>
-                      <i class="iconoir-color-filter"></i>
-                      <i class="iconoir-dev-mode-phone"></i>
+                    <div class="inner-profile-icons shadow-box py-3 justify-content-around">
+                      <a href="#">
+                        <i class="iconoir-camera"></i>
+                      </a>
+                      <a href="#">
+                        <i class="iconoir-design-pencil"></i>
+                      </a>
+                      <a href="#">
+                        <i class="iconoir-color-filter"></i>
+                      </a>
+                      <a href="#">
+                        <i class="iconoir-code"></i>
+                      </a>
                     </div>
                     <div class="d-flex align-items-center justify-content-between">
                       <div class="infos">
@@ -209,11 +218,14 @@ export const Home = () => {
                   <div class="about-profile-box info-box shadow-box h-full">
                     <img src=" images/bg1.png" alt="BG" class="bg-img" />
                     <div class="inner-profile-icons shadow-box">
-                      <a href="#">
-                        <i class="iconoir-dribbble"></i>
+                      <a
+                        href="https://www.linkedin.com/in/saurav-parjapati-bv191102/"
+                        target="_blank"
+                      >
+                        <i className="iconoir-linkedin"></i>
                       </a>
-                      <a href="#">
-                        <i class="iconoir-twitter"></i>
+                      <a href="tel:9868464518" target="_blank">
+                        <i className="iconoir-phone"></i>
                       </a>
                     </div>
                     <div class="d-flex align-items-center justify-content-between">
