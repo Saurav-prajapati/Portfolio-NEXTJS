@@ -14,6 +14,7 @@ import { useRouter } from 'next/router';
 import { Fragment, createContext, useEffect, useReducer } from 'react';
 import { msToNum } from 'utils/style';
 import { ScrollRestore } from '../layouts/App/ScrollRestore';
+import Script from 'next/script';
 
 export const AppContext = createContext({});
 
@@ -109,6 +110,18 @@ const App = ({ Component, pageProps }) => {
                     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                     crossorigin="anonymous"
                   ></script>
+                  <Script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-SL2G3HWRND"
+                  />
+                  <Script id="google-analytics">
+                    {`
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                      gtag('config', 'G-SL2G3HWRND');
+                    `}
+                  </Script>
                 </m.div>
               </AnimatePresence>
             </main>
