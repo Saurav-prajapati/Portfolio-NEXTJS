@@ -4,21 +4,19 @@ const cors = require('cors');
 const helmet = require('helmet');
 const createDOMPurify = require('dompurify');
 const { JSDOM } = require('jsdom');
-const aws = require('@aws-sdk/client-ses');
+const emailjs = require("@emailjs/nodejs");
 
 const app = express();
 const window = new JSDOM('').window;
 const DOMPurify = createDOMPurify(window);
 
-const ses = new aws.SES({
-  region: 'us-east-1',
-});
+const ORIGINS = [
+  'https://guru-saurav-next.vercel.app',
+  'http://localhost:3000'
+];
 
-const ORIGINS = ['https://hamishw.com', 'https://www.hamishw.com'];
 const MAX_EMAIL_LENGTH = 512;
 const MAX_MESSAGE_LENGTH = 4096;
-const EMAIL = 'sauravprajapati144063@gmail.com';
-const FROM_EMAIL = 'sauravprajapati144063@gmail.com';
 const EMAIL_PATTERN = /(.+)@(.+){2,}\.(.+){2,}/;
 
 app.use(helmet());
@@ -64,23 +62,23 @@ app.post('/message', async (req, res) => {
       });
     }
 
-    // Send email using AWS SES
-    await ses.sendEmail({
-      Source: `Portfolio <${FROM_EMAIL}>`,
-      Destination: {
-        ToAddresses: [EMAIL],
+    // Send using EmailJS
+    await emailjs.send(
+      process.env.EMAILJS_SERVICE_ID,
+      process.env.EMAILJS_TEMPLATE_ID,
+      {
+        user_email: email,
+        message: message,
       },
-      Message: {
-        Subject: { Data: `New message from ${email}` },
-        Body: {
-          Text: { Data: `From: ${email}\n\n${message}` },
-        },
-      },
-    });
+      {
+        publicKey: process.env.EMAILJS_PUBLIC_KEY,
+        privateKey: process.env.EMAILJS_PRIVATE_KEY,
+      }
+    );
 
     return res.status(200).json({ message: 'Message sent successfully' });
   } catch (error) {
-    console.error('Rejected', error);
+    console.error('EmailJS Error:', error);
     return res.status(500).json({ error: 'Message rejected' });
   }
 });

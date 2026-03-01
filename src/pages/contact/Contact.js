@@ -222,6 +222,7 @@ import { useRef, useState } from 'react';
 import { cssProps, msToNum, numToMs } from 'utils/style';
 import emailjs from '@emailjs/browser';
 import styles from './Contact.module.css';
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const errorRef = useRef();
