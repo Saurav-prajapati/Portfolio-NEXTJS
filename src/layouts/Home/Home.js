@@ -77,9 +77,12 @@ export const Home = () => {
                   <img src="/images/me.png" alt="About Me" />
                 </div>
                 <div class="infos">
-                  <h4>A WEB & SHOPIFY DEV.</h4>
-                  <h1>Saurav Prajapati.</h1>
-                  <p>I am a Web Designer & Developer.</p>
+                  <h4>SHOPIFY DEVELOPER • FRONTEND SPECIALIST</h4>
+                  <h1>Saurav Prajapati</h1>
+                  <p>
+                    Specialized in Shopify development, custom storefronts, and fast,
+                    user-friendly web experiences built with clean and scalable code.
+                  </p>
                   <a href="/about" class="about-btn">
                     <img src=" images/icon.svg" alt="Button" />
                   </a>
@@ -102,7 +105,7 @@ export const Home = () => {
                           <img src=" images/star1.svg" alt="Star" />
                           <b>ca.goodgoodbrand.com</b>
                           <img src=" images/star1.svg" alt="Star" />
-                          <b>rousefit.com</b>
+                          <b>zibaa.in</b>
                           <img src=" images/star1.svg" alt="Star" />
                           <b>tellius.com </b>
                           <img src=" images/star1.svg" alt="Star" />
@@ -250,7 +253,7 @@ export const Home = () => {
                 <img src=" images/bg1.png" alt="BG" class="bg-img" />
                 <div class="clients d-flex align-items-start gap-24 justify-content-center">
                   <div class="client-item">
-                    <h1>2 +</h1>
+                    <h1>3 +</h1>
                     <p>
                       Years <br />
                       Experience
@@ -263,7 +266,7 @@ export const Home = () => {
                                     </div> */}
 
                   <div class="client-item">
-                    <h1>30 +</h1>
+                    <h1>50 +</h1>
                     <p>
                       Total <br />
                       Projects

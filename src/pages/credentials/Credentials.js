@@ -20,7 +20,7 @@ export const Credentials = () => {
                   <div class="img-box">
                     <img src=" /images/me.png" alt="About Me" />
                   </div>
-                  <h2>Guru Saurav.</h2>
+                  <h2>Saurav Prajapati.</h2>
                   <p>sauravprajapati144063@gmail.com</p>
 
                   <ul class="social-links d-flex justify-content-center">
@@ -71,7 +71,7 @@ export const Credentials = () => {
                     </li>
                   </ul>
 
-                  <a href="contact" class="theme-btn">
+                  <a href="/contact" class="theme-btn">
                     Contact Me
                   </a>
                 </div>
@@ -79,82 +79,70 @@ export const Credentials = () => {
             </div>
 
             <div class="credential-content flex-1">
-              <div class="credential-about" data-aos="zoom-in">
+              <div className="credential-about" data-aos="zoom-in">
                 <h2>About Me</h2>
                 <p>
-                  I’m a skilled and creative Web Developer with nearly 3 years of
-                  professional experience in building responsive, performance-optimized
-                  websites and e-commerce platforms. I specialize in Shopify and WordPress
-                  development, delivering scalable, SEO-friendly solutions tailored to
-                  client needs.
+                  I’m a Shopify Developer and Frontend Web Developer with over 3 years of
+                  professional experience in building responsive websites and scalable
+                  e-commerce solutions. I specialize in Shopify theme development, custom
+                  storefront customization, and performance-focused web design using HTML,
+                  CSS, JavaScript, and Liquid.
                   <br />
-                  Beyond CMS expertise, I work with modern frontend frameworks like React
-                  and Next.js, crafting dynamic user interfaces with clean code and a
-                  strong focus on usability. My graphic design skills further enhance the
-                  visual appeal and branding of every project I work on.
+                  Currently working at Eglogics Softech Pvt. Ltd., I focus on creating
+                  fast, user-friendly, and conversion-driven Shopify stores tailored to
+                  business requirements. I aim to deliver clean code, optimized
+                  performance, and seamless digital experiences in every project.
                 </p>
               </div>
 
-              <div class="credential-edc-exp credential-experience">
+              <div className="credential-edc-exp credential-experience">
                 <h2 data-aos="fade-up">Experience</h2>
-                <div class="credential-edc-exp-item" data-aos="zoom-in">
+
+                <div className="credential-edc-exp-item" data-aos="zoom-in">
                   <h4>Aug 2022 - Nov 2022</h4>
-                  <h3 style={{ color: '#00e5ff' }}>Wordpress Designer & Developer</h3>
-                  <h5>Woohmama</h5>
+                  <h3 style={{ color: '#00e5ff' }}>
+                    WordPress Designer & Developer (Internship)
+                  </h3>
+                  <h5>Whoomama</h5>
                   <p>
-                    I have acquired six months of invaluable experience as a WordPress
-                    developer at WoohMama. In this role, I contributed to the development
-                    and maintenance of WordPress websites, utilizing my skills in
-                    front-end and back-end development. Collaborating closely with the
-                    team, I successfully executed website enhancements and optimizations,
-                    ensuring seamless user experiences and responsive designs. Through my
-                    tenure at WoohMama, I have honed my proficiency in WordPress
-                    development and expanded my knowledge of web technologies, fostering a
-                    strong foundation for future growth in the field.
+                    Worked on WordPress website development and customization, assisting
+                    in building responsive layouts and improving website functionality.
+                    Gained practical experience in frontend development and website
+                    optimization.
                   </p>
                 </div>
-                <div class="credential-edc-exp-item" data-aos="zoom-in">
+
+                <div className="credential-edc-exp-item" data-aos="zoom-in">
                   <h4>Sep 2022 - Oct 2023</h4>
-                  <h3 style={{ color: '#00e5ff' }}>Web Developer</h3>
+                  <h3 style={{ color: '#00e5ff' }}>Junior Web Developer</h3>
                   <h5>Epic Web Techno</h5>
                   <p>
-                    As a Junior Web Developer with One Year of experience at Epic Web
-                    Techno, I have worked on various front-end development tasks,
-                    including coding, implementing website designs, creating responsive
-                    layouts, and optimizing website performance. Proficient in HTML, CSS,
-                    Bootstrap, Reactjs, Nextjs, Shopify, and WordPress.
+                    Developed and maintained responsive websites using HTML, CSS, and
+                    JavaScript. Implemented UI designs, fixed bugs, and optimized layouts
+                    for better performance across desktop and mobile devices.
                   </p>
                 </div>
-                <div class="credential-edc-exp-item" data-aos="zoom-in">
-                  <h4>Oct 2023 - April 2024</h4>
+
+                <div className="credential-edc-exp-item" data-aos="zoom-in">
+                  <h4>Oct 2023 - Apr 2024</h4>
                   <h3 style={{ color: '#00e5ff' }}>Web Developer</h3>
                   <h5>Lemniscate Technologies</h5>
                   <p>
-                    During my six months as a Web Developer at Lemniscate Technologies, I
-                    worked on a variety of projects that required a blend of creativity
-                    and technical expertise. My responsibilities included designing and
-                    developing dynamic websites, implementing responsive layouts, and
-                    ensuring cross-browser compatibility. I leveraged my skills in HTML,
-                    CSS, Bootstrap, React.js, and Next.js to deliver robust and visually
-                    appealing web solutions. This role enhanced my ability to manage
-                    client requirements effectively and deliver high-quality web
-                    applications that meet industry standards.
+                    Customized Shopify themes and developed responsive websites while
+                    improving UI/UX and performance. Collaborated with teams to enhance
+                    existing projects and deliver client-focused web solutions.
                   </p>
                 </div>
-                <div class="credential-edc-exp-item" data-aos="zoom-in">
-                  <h4>April 2024 - Present </h4>
-                  <h3 style={{ color: '#00e5ff' }}>Shopify Developer</h3>
+
+                <div className="credential-edc-exp-item" data-aos="zoom-in">
+                  <h4>Apr 2024 - Present</h4>
+                  <h3 style={{ color: '#00e5ff' }}>Frontend & Shopify Developer</h3>
                   <h5>Eglogics Softech Pvt. Ltd.</h5>
                   <p>
-                    As a Shopify Developer at Eglogics Softech Pvt. Ltd., I specialize in
-                    creating and customizing Shopify stores to deliver top-notch
-                    e-commerce solutions. My role involves developing responsive and
-                    visually appealing online stores, integrating necessary plugins and
-                    features, and ensuring optimal performance and user experience. With
-                    proficiency in Shopify, HTML, CSS, Bootstrap, React.js, Next.js, and
-                    WordPress, I am adept at tailoring solutions to meet diverse client
-                    needs, driving their business success through innovative and effective
-                    web development.
+                    Developing and customizing Shopify stores, implementing advanced cart
+                    logic, and building custom features based on business requirements.
+                    Delivered 20+ Shopify projects with optimized performance, responsive
+                    design, and improved user experience.
                   </p>
                 </div>
               </div>
@@ -173,78 +161,94 @@ export const Credentials = () => {
                 </div>
               </div> */}
 
-              <div class="skills-wrap">
-                <h2 data-aos="fade-up">WEB SKILLS</h2>
-                <div class="d-grid skill-items gap-24 flex-wrap">
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      HTML5
-                    </h3>
+              <div className="skills-wrap">
+                <h2 data-aos="fade-up">WEB & SHOPIFY SKILLS</h2>
+
+                <div className="d-grid skill-items gap-24 flex-wrap">
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">HTML5</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      CSS3
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">CSS3</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Bootstrap
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">JavaScript (Basic)</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Tailwind
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Bootstrap</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Javascript (Basic)
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Tailwind CSS</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      WordPress
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Responsive Design</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Shopify
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Shopify Liquid</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Nextjs UI
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Shopify Theme Development</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Reactjs UI
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Shopify CLI & ThemeKit</h3>
+                  </div>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Metafields & Schema</h3>
+                  </div>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Shopify Polaris</h3>
+                  </div>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">REST & GraphQL APIs</h3>
+                  </div>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Webhooks & JSON</h3>
+                  </div>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">WordPress</h3>
                   </div>
                 </div>
               </div>
-              <div class="skills-wrap" style={{ marginTop: '30px' }}>
-                <h2 data-aos="fade-up">GRAPHIC SKILLS</h2>
-                <div class="d-grid skill-items gap-24 flex-wrap">
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Adobe Photoshop
-                    </h3>
+
+              <div className="skills-wrap" style={{ marginTop: '30px' }}>
+                <h2 data-aos="fade-up">TOOLS & DESIGN SKILLS</h2>
+
+                <div className="d-grid skill-items gap-24 flex-wrap">
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Git & GitHub</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      CorelDraw
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Figma</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Canva
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Adobe Photoshop</h3>
                   </div>
-                  <div class="skill-item" data-aos="zoom-in">
-                    <h3 style={{ color: '#00e5ff', marginTop: '15px' }} class="name">
-                      Illustrator
-                    </h3>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Canva</h3>
+                  </div>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">VS Code</h3>
+                  </div>
+
+                  <div className="skill-item" data-aos="zoom-in">
+                    <h3 className="name skill-title">Postman</h3>
                   </div>
                 </div>
               </div>

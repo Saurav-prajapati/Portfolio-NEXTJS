@@ -17,31 +17,44 @@ export const Service = () => {
           </h1>
 
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-5">
               <div className="service-sidebar" data-aos="fade-right">
                 <div className="service-sidebar-inner shadow-box">
                   <ul>
                     <li>
-                      <i className="iconoir-camera icon"></i>
-                      PHOTOGRAPHY
+                      <i className="iconoir-shop icon"></i>
+                      Shopify Store Development
                     </li>
-                    <li>
-                      <i className="iconoir-design-pencil icon"></i>
-                      WEB DESIGNING
-                    </li>
-                    <li>
-                      <i className="iconoir-color-filter icon"></i>
-                      BRANDING
-                    </li>
+
                     <li>
                       <i className="iconoir-code icon"></i>
-                      DEVELOPMENT
+                      Shopify Theme Customization
+                    </li>
+
+                    <li>
+                      <i className="iconoir-shop icon"></i>
+                      Responsive Web Design
+                    </li>
+
+                    <li>
+                      <i className="iconoir-cart icon"></i>
+                      E-commerce Solutions
+                    </li>
+
+                    <li>
+                      <i className="iconoir-flash icon"></i>
+                      Website Performance Optimization
+                    </li>
+
+                    <li>
+                      <i className="iconoir-settings icon"></i>
+                      Custom Features & API Integration
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-7">
               <h1 className="section-heading" data-aos="fade-up">
                 <img src=" /images/star-2.png" alt="Star" /> My Offerings{' '}
                 <img src=" /images/star-2.png" alt="Star" />
@@ -53,45 +66,64 @@ export const Service = () => {
                 <div className="service-content-inner shadow-box">
                   <div className="service-items">
                     <div className="service-item">
-                      <h3>Photography</h3>
+                      <h3>Shopify Store Development</h3>
                       <p>
-                        I offer professional photography services tailored to elevate your
-                        brand’s visual identity. From product shoots for e-commerce stores
-                        to lifestyle and promotional photography, I ensure each image is
-                        sharp, well-composed, and aligned with your brand's tone.
-                        High-quality visuals help build trust — and I help deliver just
-                        that.
+                        I develop fully customized Shopify stores tailored to business
+                        goals and customer experience. From store setup to complete theme
+                        development, I build scalable and high-performing e-commerce
+                        websites designed to drive sales and provide seamless shopping
+                        experiences.
                       </p>
                     </div>
+
                     <div className="service-item">
-                      <h3>Web Designing</h3>
+                      <h3>Shopify Theme Customization</h3>
                       <p>
-                        Your website is often the first impression of your business — I
-                        make sure it's a great one. I design clean, responsive, and
-                        user-focused websites that not only look stunning but also perform
-                        well across all devices. Whether you need a fresh design or a
-                        redesign, I create layouts that reflect your brand and keep users
-                        engaged.
+                        I customize Shopify themes based on specific business
+                        requirements, including layout changes, custom sections,
+                        metafields integration, and UI enhancements. My focus is to create
+                        unique storefronts that improve user engagement and conversion
+                        rates.
                       </p>
                     </div>
+
                     <div className="service-item">
-                      <h3>Branding</h3>
+                      <h3>Responsive Web Design</h3>
                       <p>
-                        I help businesses build strong, memorable brands from the ground
-                        up. From logo design to brand colors, typography, and messaging —
-                        I create cohesive visual identities that make your business stand
-                        out. My goal is to make your brand look polished, professional,
-                        and instantly recognizable.
+                        I design responsive and mobile-first websites that deliver
+                        consistent performance across all devices. Using modern frontend
+                        technologies like HTML, CSS, JavaScript, and Tailwind CSS, I
+                        ensure clean layouts and smooth user experiences.
                       </p>
                     </div>
+
                     <div className="service-item">
-                      <h3>Development</h3>
+                      <h3>E-commerce Solutions</h3>
                       <p>
-                        I develop fast, functional, and fully responsive websites using
-                        Shopify, WordPress, and modern frontend technologies. Whether
-                        you’re launching an online store or need a custom business site, I
-                        build with clean code, optimized speed, and user-friendly admin
-                        panels. I turn ideas into smooth digital experiences.
+                        I provide complete e-commerce solutions including product setup,
+                        store optimization, payment integration, and user experience
+                        improvements. My goal is to help businesses build reliable online
+                        stores that support long-term growth.
+                      </p>
+                    </div>
+
+                    <div className="service-item">
+                      <h3>Website Performance Optimization</h3>
+                      <p>
+                        I optimize website speed and performance by improving code
+                        structure, reducing load time, and enhancing overall
+                        responsiveness. Fast-loading websites improve SEO rankings and
+                        deliver better user satisfaction.
+                      </p>
+                    </div>
+
+                    <div className="service-item">
+                      <h3>Custom Features & API Integration</h3>
+                      <p>
+                        I implement custom functionalities using Shopify APIs, webhooks,
+                        and third-party integrations. From advanced cart logic to dynamic
+                        features, I build scalable solutions tailored to unique business
+                        workflows.
                       </p>
                     </div>
                   </div>
