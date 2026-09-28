@@ -31,7 +31,7 @@ export const About = () => {
                 <h1>Saurav Prajapati</h1>
                 <p>
                   Hello! I'm Saurav Prajapati, a Shopify Developer and Frontend Web
-                  Developer based in Karawal Nagar, Delhi, with over 3 years of
+                  Developer based in Karawal Nagar, Delhi, with over 4 years of
                   professional experience in building responsive websites and
                   high-performing e-commerce stores.
                 </p>
