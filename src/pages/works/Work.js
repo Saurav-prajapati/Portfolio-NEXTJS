@@ -153,11 +153,11 @@ export const Work = () => {
                 <div class="project-item p-4 shadow-box">
                   <div class="d-flex align-items-center justify-content-between">
                     <div class="project-info">
-                      <p>SHOPIFY</p>
-                      <h1>hootyballoo.com</h1>
+                      <p>NextJS</p>
+                      <h1>themarketo.in</h1>
                     </div>
                     <a
-                      href="https://www.hootyballoo.com/"
+                      href="https://themarketo.in/"
                       class="project-btn"
                       target="_blank"
                     >
@@ -171,10 +171,58 @@ export const Work = () => {
                 <div class="project-item p-4 shadow-box">
                   <div class="d-flex align-items-center justify-content-between">
                     <div class="project-info">
-                      <p>SHOPIFY</p>
-                      <h1>mynwcpr.com</h1>
+                      <p>NextJS</p>
+                      <h1>thebrandnext.com</h1>
                     </div>
-                    <a href="https://mynwcpr.com/ " class="project-btn">
+                    <a
+                      href="https://thebrandnext.com/"
+                      class="project-btn"
+                      target="_blank"
+                    >
+                      <img src=" /images/icon.svg" alt="Button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div data-aos="zoom-in">
+                <div class="project-item p-4 shadow-box">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="project-info">
+                      <p>NextJS</p>
+                      <h1>thesimplified.in</h1>
+                    </div>
+                    <a
+                      href="https://thesimplified.vercel.app/"
+                      class="project-btn"
+                      target="_blank"
+                    >
+                      <img src=" /images/icon.svg" alt="Button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="zoom-in">
+                <div class="project-item p-4 shadow-box">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="project-info">
+                      <p>Next.js</p>
+                      <h1>epicwebtechno.co</h1>
+                    </div>
+                    <a href="https://www.epicwebtechno.co/" class="project-btn">
+                      <img src=" /images/icon.svg" alt="Button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="zoom-in">
+                <div class="project-item p-4 shadow-box">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="project-info">
+                      <p>Next.js</p>
+                      <h1>ravisharma.live</h1>
+                    </div>
+                    <a href="https://www.ravisharma.live/" class="project-btn">
                       <img src=" /images/icon.svg" alt="Button" />
                     </a>
                   </div>
@@ -186,29 +234,18 @@ export const Work = () => {
                   <div class="d-flex align-items-center justify-content-between">
                     <div class="project-info">
                       <p>SHOPIFY</p>
-                      <h1>italiving.de</h1>
+                      <h1>hootyballoo.com</h1>
                     </div>
-                    <a href="https://italiving.de/" class="project-btn">
+                    <a
+                      href="https://www.hootyballoo.com/"
+                      class="project-btn"
+                      target="_blank"
+                    >
                       <img src=" /images/icon.svg" alt="Button" />
                     </a>
                   </div>
                 </div>
               </div>
-
-              <div data-aos="zoom-in">
-                <div class="project-item p-4 shadow-box">
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="project-info">
-                      <p> SHOPIFY</p>
-                      <h1>ca.goodgoodbrand.com</h1>
-                    </div>
-                    <a href="https://ca.goodgoodbrand.com/ " class="project-btn">
-                      <img src=" /images/icon.svg" alt="Button" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
               <div data-aos="zoom-in">
                 <div class="project-item p-4 shadow-box">
                   <div class="d-flex align-items-center justify-content-between">
@@ -317,20 +354,6 @@ export const Work = () => {
                 <div class="project-item p-4 shadow-box">
                   <div class="d-flex align-items-center justify-content-between">
                     <div class="project-info">
-                      <p>SHOPIFY</p>
-                      <h1>manonsimard-boutique.com</h1>
-                    </div>
-                    <a href="https://www.manonsimard-boutique.com/" class="project-btn">
-                      <img src=" /images/icon.svg" alt="Button" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div data-aos="zoom-in">
-                <div class="project-item p-4 shadow-box">
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="project-info">
                       <p>React, Next, UI </p>
                       <h1>Many More</h1>
                     </div>
@@ -344,6 +367,7 @@ export const Work = () => {
                 <img src=" /images/star-2.png" alt="Star" /> All Projects{' '}
                 <img src=" /images/star-2.png" alt="Star" />
               </h1>
+
               <div class="d-grid align-items-start gap-24">
                 <div data-aos="zoom-in" class="flex-1">
                   <div class="project-item shadow-box">
@@ -356,6 +380,58 @@ export const Work = () => {
                         <img src=" /images/icon.svg" alt="Button" />
                       </a>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="zoom-in">
+                <div class="project-item p-4 shadow-box">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="project-info">
+                      <p>SHOPIFY</p>
+                      <h1>italiving.de</h1>
+                    </div>
+                    <a href="https://italiving.de/" class="project-btn">
+                      <img src=" /images/icon.svg" alt="Button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="zoom-in">
+                <div class="project-item p-4 shadow-box">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="project-info">
+                      <p>SHOPIFY</p>
+                      <h1>mynwcpr.com</h1>
+                    </div>
+                    <a href="https://mynwcpr.com/ " class="project-btn">
+                      <img src=" /images/icon.svg" alt="Button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="zoom-in">
+                <div class="project-item p-4 shadow-box">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="project-info">
+                      <p> SHOPIFY</p>
+                      <h1>ca.goodgoodbrand.com</h1>
+                    </div>
+                    <a href="https://ca.goodgoodbrand.com/ " class="project-btn">
+                      <img src=" /images/icon.svg" alt="Button" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="zoom-in">
+                <div class="project-item p-4 shadow-box">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="project-info">
+                      <p>SHOPIFY</p>
+                      <h1>manonsimard-boutique.com</h1>
+                    </div>
+                    <a href="https://www.manonsimard-boutique.com/" class="project-btn">
+                      <img src=" /images/icon.svg" alt="Button" />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -374,7 +450,6 @@ export const Work = () => {
                   </div>
                 </div>
               </div>
-
               <div class="d-grid align-items-start gap-24">
                 <div data-aos="zoom-in" class="flex-1">
                   <div class="project-item shadow-box">
@@ -418,32 +493,7 @@ export const Work = () => {
                     </div>
                   </div>
                 </div>
-                <div data-aos="zoom-in">
-                  <div class="project-item p-4 shadow-box">
-                    <div class="d-flex align-items-center justify-content-between">
-                      <div class="project-info">
-                        <p>Next.js</p>
-                        <h1>epicwebtechno.co</h1>
-                      </div>
-                      <a href="https://www.epicwebtechno.co/" class="project-btn">
-                        <img src=" /images/icon.svg" alt="Button" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div data-aos="zoom-in">
-                  <div class="project-item p-4 shadow-box">
-                    <div class="d-flex align-items-center justify-content-between">
-                      <div class="project-info">
-                        <p>Next.js</p>
-                        <h1>ravisharma.live</h1>
-                      </div>
-                      <a href="https://www.ravisharma.live/" class="project-btn">
-                        <img src=" /images/icon.svg" alt="Button" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+
               </div>
 
               <div class="d-grid align-items-start gap-24">
@@ -489,18 +539,6 @@ export const Work = () => {
                       <a href="https://jhakaashai.com.com/" class="project-btn">
                         <img src=" /images/icon.svg" alt="Button" />
                       </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div data-aos="zoom-in" class="flex-1">
-                  <div class="project-item shadow-box">
-                    <div class="d-flex align-items-center p-2 justify-content-between">
-                      <div class="project-info">
-                        <p>WORDPRESS</p>
-                        <h1>Many More</h1>
-                      </div>
-                      <img src=" /images/icon.svg" alt="Button" />
                     </div>
                   </div>
                 </div>
